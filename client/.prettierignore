@@ -1,0 +1,53 @@
+# Ignore artifacts:
+build
+coverage
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# husky Ignore
+.husky/
+
+
+# Ignore config files
+.prettierignore
+.gitignore
+tsconfig.app.tsbuildinfo
+.markdownlintignore
+
+# Ignore markdown files as markdownlint-cli2 handles it
+*.md
+
+# Ignore jsonc filtes
+*.jsonc
+
+# Ignore cspell dictionary file
+cspelldictionary.txt
+
+#Ignore .gitkeep files
+*.gitkeep
+
+#Ignore .svg files
+*.svg

@@ -1,0 +1,11 @@
+.app {
+  @include global.flex-row-center;
+
+  height: 100vh;
+}
+
+.title {
+  @include global.typography-display-28-700;
+
+  color: global.$primary-color;
+}

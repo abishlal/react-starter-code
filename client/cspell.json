@@ -1,0 +1,18 @@
+{
+  "ignorePaths": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    "coverage/**",
+    "*.svg",
+    "cspell.json"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "cspelldictionary",
+      "path": "./cspelldictionary.txt",
+      "addWords": true
+    }
+  ],
+  "dictionaries": ["cspelldictionary"]
+}

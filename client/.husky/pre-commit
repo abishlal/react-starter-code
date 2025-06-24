@@ -1,0 +1,7 @@
+# Check if there are changes in the client folder
+if git diff --cached --name-only | grep -q '^client/'; then
+  echo "Running frontend-specific lint hooks..."
+
+  # Switch to client folder and run lint-staged
+  cd client/ && npm run lint-staged
+fi
